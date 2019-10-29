@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App has a valid snapshot 1`] = `
+<div
+  className="page"
+>
+  <div
+    className="interactions"
+  >
+    Search for news 
+    <form
+      className="form"
+      onSubmit={[Function]}
+    >
+      <input
+        onChange={[Function]}
+        type="text"
+        value="redux"
+      />
+      <button
+        type="submit"
+      >
+        Search
+      </button>
+    </form>
+  </div>
+  <div
+    className="card-container"
+  />
+  <button
+    className="button button--more-stories"
+    onClick={[Function]}
+    type="button"
+  >
+    More stories
+  </button>
+</div>
+`;
+
+exports[`Button has a valid snapshot 1`] = `
+<button
+  className="button button--more-stories"
+  type="button"
+>
+  Give Me More
+</button>
+`;
+
+exports[`Search has a valid snapshot 1`] = `
+<form
+  className="form"
+>
+  Search
+  <input
+    type="text"
+  />
+  <button
+    type="submit"
+  >
+    Search
+    Search
+  </button>
+</form>
+`;
+
+exports[`Table has a valid snapshot 1`] = `
+<div
+  className="card-container"
+>
+  <div
+    className="card"
+  >
+    <a
+      className="article-title"
+    >
+      1
+    </a>
+    <p>
+      Author: 
+      1
+    </p>
+    <p>
+      Comments: 
+      1
+    </p>
+    <p>
+      Points: 
+      2
+    </p>
+    <button
+      className="button button--dismiss"
+      onClick={[Function]}
+      type="button"
+    >
+      Dismiss
+    </button>
+  </div>
+  <div
+    className="card"
+  >
+    <a
+      className="article-title"
+    >
+      2
+    </a>
+    <p>
+      Author: 
+      2
+    </p>
+    <p>
+      Comments: 
+      1
+    </p>
+    <p>
+      Points: 
+      2
+    </p>
+    <button
+      className="button button--dismiss"
+      onClick={[Function]}
+      type="button"
+    >
+      Dismiss
+    </button>
+  </div>
+</div>
+`;

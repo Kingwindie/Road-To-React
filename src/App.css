@@ -1,0 +1,78 @@
+.page {
+  /* background: #000; */
+  color: #fff;
+}
+
+.card-container {
+  /* background: slateblue; */
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+  background: slategray;
+  margin: 5px;
+  padding: 3px 5px;
+}
+
+.article-title {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.article-title a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button {
+  padding: 0.5em 3em;
+  display: block;
+  margin: 0 auto;
+  border: none;
+}
+
+.button--dismiss {
+  background: orangered;
+}
+.button--more-stories {
+  margin: 30px auto;
+  background: palegreen;
+}
+
+.button:hover {
+  background: transparent;
+  border-bottom: 4px solid #000;
+}
+.interactions {
+  height: 9em;
+  width: 100%;
+}
+.form {
+  height: 2em;
+  width: 100%;
+}
+
+.form input {
+  display: block;
+  width: 70%;
+  height: 2em;
+  padding: 0.3em;
+  margin: 0.3em auto;
+  text-align: center;
+}
+
+.form button {
+  display: block;
+  margin: 5px auto;
+  width: 30%;
+  padding: 0.8em;
+  border: none;
+  border-radius: 3px;
+}
+
+.form button:hover {
+  background: palegreen;
+  transition: background 0.3s linear;
+}
